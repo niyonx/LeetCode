@@ -14,12 +14,6 @@ public class uniqueNoOfOccurences {
             }
         }
         listCount.add(count);
-//        Collections.sort(listCount);
-//        for (int i = 0; i < listCount.size()-1; i++){
-//            if (listCount.get(i).equals(listCount.get(i+1))){
-//                return false;
-//            }
-//        }
         Set<Integer> set = new HashSet<>(listCount);
         return set.size() == listCount.size();
     }
