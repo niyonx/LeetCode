@@ -33,7 +33,6 @@ public class RangeOfSumBst {
         tree.left.right = new TreeNode(7);
         tree.right.left = new TreeNode(13);
         tree.right.right = new TreeNode(18);
-        tree.left.left.left = new TreeNode(1);
         tree.left.right.left = new TreeNode(6);
 
         System.out.println(ros.rangeSumBST(tree, 6, 10));
